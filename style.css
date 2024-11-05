@@ -9,7 +9,9 @@ h1 {
     margin: 15px 0;
 }
 
-
+hr {
+    border-top:2px solid;
+}
 
 .container {
     width: 650px;
@@ -28,7 +30,8 @@ h1 {
 }
 
 .project {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    width: max-content;
 }
 
 .project a {
@@ -50,5 +53,10 @@ h1 {
 
 #project-icon img {
     max-width: 48px;
-    /* height: 48px; */
+    max-height: 48px;
+}
+
+.small-logo {
+    width: 48px;
+    height: 48px;
 }
