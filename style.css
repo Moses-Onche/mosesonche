@@ -19,6 +19,15 @@ hr {
     /* border: solid; */
 }
 
+@media only screen and (max-width: 600px) {
+      .container {
+        width: 400px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+}
+
 .sub {
     display: flex;
     justify-content: space-between;
