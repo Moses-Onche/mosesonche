@@ -9,6 +9,14 @@ h1 {
     margin: 15px 0;
 }
 
+h2 {
+    margin-bottom: 2px;
+}
+
+p {
+    margin-top: 4px;
+}
+
 hr {
     border-top:2px solid;
 }
@@ -16,7 +24,6 @@ hr {
 .container {
     width: 650px;
     margin-top: 6px;
-    /* border: solid; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -40,7 +47,6 @@ hr {
 
 .project {
     margin-bottom: 30px;
-    width: max-content;
 }
 
 .project a {
@@ -50,7 +56,7 @@ hr {
     color: black;
 }
 
-#project-icon {
+.project-icon {
     background-color: rgb(214, 214, 214);
     padding: 20px;
     width: 50px;
@@ -60,7 +66,7 @@ hr {
     place-content: center;
 }
 
-#project-icon img {
+.project-icon img {
     max-width: 48px;
     max-height: 48px;
 }
