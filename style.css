@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: sans-serif;
 }
 
 h1 {
@@ -10,7 +13,7 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 2px;
+    margin: 0;
 }
 
 p {
@@ -18,21 +21,12 @@ p {
 }
 
 hr {
-    border-top:2px solid;
+    border-top: 2px solid;
 }
 
 .container {
     width: 650px;
     margin-top: 6px;
-}
-
-@media only screen and (max-width: 600px) {
-      .container {
-        width: 400px;
-      }
-      h1 {
-        font-size: 2rem;
-      }
 }
 
 .sub {
@@ -46,7 +40,25 @@ hr {
 }
 
 .project {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: solid 1px white;
+    border-radius: 100px;
+    transition: all 0.4s ease-in;
+}
+
+.project:hover {
+    border-color: black;
+}
+
+.stack-div {
+    margin-top: -10px;
+}
+.tech-stack {
+    padding: 4px 8px;
+    border: solid 1px grey;
+    border-radius: 4px;
 }
 
 .project a {
@@ -57,7 +69,7 @@ hr {
 }
 
 .project-icon {
-    background-color: rgb(214, 214, 214);
+    background-color: #000000;
     padding: 20px;
     width: 50px;
     height: 50px;
@@ -71,7 +83,22 @@ hr {
     max-height: 48px;
 }
 
+.project-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .small-logo {
     width: 48px;
     height: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+      .container {
+        width: 400px;
+      }
+      h1 {
+        font-size: 2rem;
+      }
 }
