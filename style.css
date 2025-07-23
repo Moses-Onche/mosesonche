@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     display: flex;
     flex-direction: column;
@@ -8,16 +11,22 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     margin: 15px 0;
 }
 
 h2 {
     margin: 0;
+    font-size: 1.1rem;
+}
+
+h3 {
+    margin: 20px 0;
 }
 
 p {
-    margin-top: 4px;
+    margin: 4px 0;
+    font-size: 0.7rem;
 }
 
 hr {
@@ -25,18 +34,19 @@ hr {
 }
 
 .main-container {
-    width: 650px;
+    width: 500px;
     margin-top: 6px;
 }
 
 .sub {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .sub span a {
     text-decoration: none;
+    font-size: 0.8rem;
 }
 
 .project-container {
@@ -48,15 +58,15 @@ hr {
     cursor: pointer;
     display: flex;
     align-items: start;
-    height: 115px;
+    height: 80px;
     overflow: hidden;
     text-decoration: none;
     color: rgb(45, 45, 45);
     margin-bottom: 20px;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 6px;
     border: solid 1px white;
-    border-radius: 60px;
+    border-radius: 38px;
     background-color: rgb(237, 237, 237);
     transition: all 0.4s ease-out;
 }
@@ -66,26 +76,24 @@ hr {
     /* background-color: rgb(214, 214, 214); */
 }
 
-/* .project a {
-} */
 
 .project-icon {
     background-color: #000000;
-    padding: 20px;
-    width: 50px;
-    height: 50px;
+    padding: 18px;
+    width: 65px;
+    height: 65px;
     margin-right: 20px;
     border-radius: 50%;
     place-content: center;
 }
 
 .project-icon img {
-    max-width: 48px;
-    max-height: 48px;
+    max-width: 30px;
+    max-height: 30px;
 }
 
 .project-details {
-    margin-top: 8px;
+    margin-top: 2px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -97,19 +105,25 @@ hr {
 }
 
 .stack-div {
-    margin-top: -10px;
+    margin-bottom: 10px;
 }
 .tech-stack {
     padding: 4px 8px;
     background-color: white;
     border-radius: 4px;
     color: rgb(86, 86, 86);
+    font-size: 0.7rem;
+}
+
+.features {
+    margin-bottom: 15px;
 }
 
 .features-list {
     padding-left: 0;
     list-style: none;
     color: rgb(86, 86, 86);
+    font-size: 0.7rem;
 }
 
 .cta {
