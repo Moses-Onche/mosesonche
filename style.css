@@ -51,19 +51,19 @@ hr {
     height: 115px;
     overflow: hidden;
     text-decoration: none;
-    color: black;
+    color: rgb(45, 45, 45);
     margin-bottom: 20px;
     box-sizing: border-box;
     padding: 10px;
     border: solid 1px white;
     border-radius: 60px;
     background-color: rgb(237, 237, 237);
-    transition: height 0.4s ease-out;
+    transition: all 0.4s ease-out;
 }
 
 .project:hover {
-    /* border-color: black; */
-    background-color: rgb(214, 214, 214);
+    border-color: black;
+    /* background-color: rgb(214, 214, 214); */
 }
 
 /* .project a {
@@ -101,8 +101,22 @@ hr {
 }
 .tech-stack {
     padding: 4px 8px;
-    border: solid 1px grey;
+    background-color: white;
     border-radius: 4px;
+    color: rgb(86, 86, 86);
+}
+
+.features-list {
+    padding-left: 0;
+    list-style: none;
+    color: rgb(86, 86, 86);
+}
+
+.cta {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
 }
 
 @media only screen and (max-width: 600px) {
