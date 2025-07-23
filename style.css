@@ -40,11 +40,17 @@ hr {
 }
 
 .project {
+    display: flex;
+    align-items: start;
+    height: 115px;
+    overflow: hidden;
+    text-decoration: none;
+    color: black;
     margin-bottom: 20px;
     box-sizing: border-box;
     padding: 10px;
     border: solid 1px white;
-    border-radius: 100px;
+    border-radius: 10px;
     transition: all 0.4s ease-in;
 }
 
@@ -52,21 +58,8 @@ hr {
     border-color: black;
 }
 
-.stack-div {
-    margin-top: -10px;
-}
-.tech-stack {
-    padding: 4px 8px;
-    border: solid 1px grey;
-    border-radius: 4px;
-}
-
-.project a {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-}
+/* .project a {
+} */
 
 .project-icon {
     background-color: #000000;
@@ -84,6 +77,7 @@ hr {
 }
 
 .project-details {
+    margin-top: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,6 +86,15 @@ hr {
 .small-logo {
     width: 48px;
     height: 48px;
+}
+
+.stack-div {
+    margin-top: -10px;
+}
+.tech-stack {
+    padding: 4px 8px;
+    border: solid 1px grey;
+    border-radius: 4px;
 }
 
 @media only screen and (max-width: 600px) {
