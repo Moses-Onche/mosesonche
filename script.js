@@ -1,17 +1,25 @@
 const projectContainer = document.querySelectorAll('.project');
+console.log(projectContainer);
 let height = "";
 
 projectContainer.forEach(project => {
     project.addEventListener('click', () => {
       if (project.children[1].children[3].children[0].children.length < 4) height = "165px";
+      else if (project == projectContainer[1] && window.innerWidth < 600) height = "200px";
       else height = "175px";
 
       if (project.style.height == "") {
         project.style.height = height;
+        project.children[1].children[3].style.display = "block";
+        project.children[1].children[4].style.display = "block";
       } else if (project.style.height == height) {
         project.style.height = "80px";
+        project.children[1].children[3].style.display = "none";
+        project.children[1].children[4].style.display = "none";
       } else {
         project.style.height = height;
+        project.children[1].children[3].style.display = "block";
+        project.children[1].children[4].style.display = "block";
       }
     });
 });
