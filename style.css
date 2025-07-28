@@ -135,7 +135,7 @@ hr {
 }
 
 @media only screen and (max-width: 600px) {
-      .container {
+      .main-container {
         width: 400px;
       }
       h1 {
