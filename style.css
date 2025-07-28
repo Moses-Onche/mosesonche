@@ -139,6 +139,10 @@ hr {
     font-size: 0.7rem;
 }
 
+.features-list li {
+    margin-bottom: 5px;
+}
+
 .cta {
     text-decoration: none;
     background-color: black;

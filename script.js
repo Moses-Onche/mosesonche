@@ -3,9 +3,9 @@ let height = "";
 
 projectContainer.forEach(project => {
     project.addEventListener('click', () => {
-      if (project.children[1].children[3].children[0].children.length < 4) height = "165px";
+      if (project.children[1].children[3].children[0].children.length < 4) height = "180px";
       else if (project == projectContainer[1] && window.innerWidth < 600) height = "200px";
-      else height = "175px";
+      else height = "200px";
 
       if (project.style.height == "") {
         project.style.height = height;
