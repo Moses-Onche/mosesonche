@@ -1,5 +1,4 @@
 const projectContainer = document.querySelectorAll('.project');
-console.log(projectContainer);
 let height = "";
 
 projectContainer.forEach(project => {
