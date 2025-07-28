@@ -116,6 +116,9 @@ hr {
 
 .stack-div {
     margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
 }
 .tech-stack {
     padding: 4px 8px;
