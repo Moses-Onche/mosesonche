@@ -66,6 +66,16 @@ hr {
 
 .project {
     cursor: pointer;
+    -webkit-user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -moz-user-select: none;
+    -moz--tap-highlight-color: transparent;
+    -ms-user-select: none;
+    -ms-tap-highlight-color: transparent;
+    user-select: none;
+    -tap-highlight-color: transparent;
+    outline: none;
+    box-shadow: none;
     display: flex;
     align-items: start;
     height: 80px;
